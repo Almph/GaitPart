@@ -1,8 +1,8 @@
 conf = {
     "WORK_PATH": "./work",
-    "CUDA_VISIBLE_DEVICES": "2,3",
+    "CUDA_VISIBLE_DEVICES": "8",
     "data": {
-        'dataset_path': "",
+        'dataset_path': "/mnt/pami14/DATASET/GAIT/GaitAligned/64/CASIA-B/silhouettes/",
         'resolution': '64',
         'dataset': 'CASIA-B',
         # In CASIA-B, data of subject #5 is incomplete.
@@ -19,7 +19,7 @@ conf = {
         'hard_or_full_trip': 'full',
         'batch_size': (8, 16),
         'restore_iter': 0,
-        'total_iter': 80000,
+        'total_iter': 1000,
         'margin': 0.2,
         'num_workers': 3,
         'frame_num': 30,

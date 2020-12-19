@@ -1,2 +1,6 @@
-./work/checkpoint/
-.vscode
+./work/checkpoint/*
+.vscode/*
+*.pyc
+*.npy
+*.ptm
+./__pycache__/*
